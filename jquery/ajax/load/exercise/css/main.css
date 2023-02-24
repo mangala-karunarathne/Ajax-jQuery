@@ -1,0 +1,18 @@
+body { font-size: 18px; font-family: Arial, Helvetica, sans-serif;}
+
+div.container {width: 800px; margin: 0 auto }
+
+h1, h2 { letter-spacing: -2px}
+
+nav { margin-bottom: 10px; padding: 10px; border-bottom: 2px solid rgb(253, 247, 247); background: #f7f7f7;}
+nav ul { list-style: none; color: blue}
+nav ul li { margin: 0 10px; display: inline; font-weight: bold;}
+nav ul li a { text-decoration: none; color: blue}
+nav ul li a:hover {color: red}
+nav ul li a.active{ color: red;border-bottom: 2px solid rgb(235, 164, 11);}
+
+main p { color: #333;}
+
+div.loading { text-align: center;}
+
+footer { border-top: 2px solid #eee;}
